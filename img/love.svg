@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="512"
+   viewBox="0 0 32 32"
+   width="512"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="love.svg"
+   inkscape:version="1.2.2 (1:1.2.2+202305151915+b0a8486541)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.7636719"
+     inkscape:cx="181.72315"
+     inkscape:cy="256.2835"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Love" />
+  <g
+     id="Love">
+    <path
+       d="m29.43 7.61a7.1713 7.1713 0 0 0 -6.0859-4.5752c-.2591-.0226-.5209-.0348-.7865-.0348a8.6981 8.6981 0 0 0 -6.5576 3.0083 8.6981 8.6981 0 0 0 -6.5576-3.0083c-.2656 0-.5274.0122-.7871.0352a7.1712 7.1712 0 0 0 -6.0853 4.5748 7.6866 7.6866 0 0 0 1.306 7.9515l11.3691 13.0943a1 1 0 0 0 1.51 0l11.3689-13.0943a7.6866 7.6866 0 0 0 1.306-7.9515z"
+       fill="#ff5e57"
+       id="path2"
+       style="fill:#ee6b45;fill-opacity:1" />
+    <path
+       d="m22.57 21.96-5.82 6.7a.9972.9972 0 0 1 -1.5 0l-11.37-13.1a7.696 7.696 0 0 1 -1.31-7.95 7.1445 7.1445 0 0 1 6.09-4.57 4.8723 4.8723 0 0 1 .66-.04c.2 6.82 2.58 15.97 13.25 18.96z"
+       fill="#d32f2f"
+       id="path4"
+       style="fill:#ee5931;fill-opacity:1" />
+  </g>
+</svg>

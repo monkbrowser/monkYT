@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1.23",
+  "name": "Monk",
+  "description": "Monk",
+  "icons": {
+    "128": "/img/logo.png"
+  },
+  "action": {
+    "default_icon": "/img/logo.png",
+    "default_popup": "popup/index.html"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["https://*/*", "http://*/*"],
+      "run_at": "document_start",
+      "js": ["/content.js"]
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["*"],
+      "matches": ["https://*/*", "http://*/*"],
+      "extension_ids": []
+    }
+  ]
+}

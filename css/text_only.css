@@ -1,0 +1,6 @@
+img,
+video,
+canvas,
+[style*="background-image"] {
+  filter: brightness(0) invert(0.7) !important;
+}
