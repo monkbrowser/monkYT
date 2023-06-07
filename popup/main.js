@@ -8,9 +8,9 @@ function render(toggle, value) {
 async function init() {
   let storage = await chrome.storage.local.get(null);
   //
-  storage.ad_blocker = storage.ad_blocker === false ? false : true;
-  storage.greyscale = storage.greyscale === false ? false : true;
-  storage.text_only = storage.text_only === false ? false : true;
+  storage.remove_recommended_feed =
+    storage.remove_recommended_feed === false ? false : true;
+  storage.remove_video = storage.remove_video === false ? false : true;
   //
   let toggles = document.querySelectorAll(`[data-toggle-key]`);
   //
