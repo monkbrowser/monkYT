@@ -2,8 +2,17 @@
 const CONFIG = {
   toggles: {
     // css_file_name: [ title, default_value ]
-    remove_recommended_feed: ["Remove Recommended Feed", true],
-    remove_video: ["Remove Video", true],
+    hide_video: ["Hide Video", true],
+    hide_notification_bell: ["Hide Notification Bell", true],
+    hide_feed: ["Hide Recommended Feed", true],
+    hide_comments: ["Hide Comments", true],
+    hide_merch: ["Hide Merch", true],
+    hide_trending: ["Hide Trending Tab", true],
+    hide_sidebar: ["Hide Sidebar", true],
+    hide_related: ["Hide Related Videos", true],
+    hide_live_chat: ["Hide Live Chat", true],
+    hide_playlist: ["Hide Playlist", true],
+    hide_subs: ["Hide Subscriptions", true],
   },
 };
 //
@@ -41,7 +50,6 @@ async function render(links) {
   });
   //
 }
-
 async function init() {
   //
   let links = {};

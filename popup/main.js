@@ -2,8 +2,17 @@
 const CONFIG = {
   toggles: {
     // css_file_name: [ title, default_value ]
-    remove_recommended_feed: ["Remove Recommended Feed", true],
-    remove_video: ["Remove Video", true],
+    hide_video: ["Remove Video", true],
+    hide_notification_bell: ["Remove Notification Bell", true],
+    hide_feed: ["Remove Recommended Feed", true],
+    hide_comments: ["Remove Comments", true],
+    hide_merch: ["Remove Comments", true],
+    hide_trending: ["Hide Trending Tab", true],
+    hide_sidebar: ["Hide Sidebar", true],
+    hide_related: ["Hide Related Videos", true],
+    hide_live_chat: ["Hide Live Chat", true],
+    hide_playlist: ["Hide Playlist", true],
+    hide_subs: ["Hide Subscriptions", true],
   },
 };
 //
