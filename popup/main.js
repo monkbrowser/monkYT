@@ -2,11 +2,11 @@
 const CONFIG = {
   toggles: {
     // css_file_name: [ title, default_value ]
-    hide_video: ["Remove Video", true],
-    hide_notification_bell: ["Remove Notification Bell", true],
-    hide_feed: ["Remove Recommended Feed", true],
-    hide_comments: ["Remove Comments", true],
-    hide_merch: ["Remove Comments", true],
+    hide_video: ["Hide Video", true],
+    hide_notification_bell: ["Hide Notification Bell", true],
+    hide_feed: ["Hide Recommended Feed", true],
+    hide_comments: ["Hide Comments", true],
+    hide_merch: ["Hide Merch", true],
     hide_trending: ["Hide Trending Tab", true],
     hide_sidebar: ["Hide Sidebar", true],
     hide_related: ["Hide Related Videos", true],

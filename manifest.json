@@ -13,13 +13,13 @@
   "content_scripts": [
     {
       "all_frames": true,
-      "matches": ["https://*/*", "http://*/*"],
+      "matches": ["https://www.youtube.com/*"],
       "run_at": "document_start",
       "js": ["/content.js"]
     }
   ],
   "permissions": ["storage"],
-  "host_permissions": ["https://*/*", "http://*/*"],
+  "host_permissions": ["https://www.youtube.com/*"],
   "web_accessible_resources": [
     {
       "resources": ["*"],
