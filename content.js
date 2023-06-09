@@ -1,17 +1,30 @@
+//
+const CONFIG = {
+  toggles: {
+    // css_file_name: [ title, default_value ]
+    remove_recommended_feed: ["Remove Recommended Feed", true],
+    remove_video: ["Remove Video", true],
+  },
+};
+//
 async function render(links) {
   //
   let storage = await chrome.storage.local.get(null);
-  //
-  storage.remove_recommended_feed =
-    storage.remove_recommended_feed === false ? false : true;
-  storage.remove_video = storage.remove_video === false ? false : true;
+  // init_storage
+  for (let key in CONFIG.toggles) {
+    if (storage[key] === true || storage[key] === false) {
+      // do nothing
+    } else {
+      storage[key] = CONFIG.toggles[key][1];
+    }
+  }
   //
   let styles = document.querySelectorAll(`.royce-geyscale-style`);
   for (let style of styles) {
     style.remove();
   }
   //
-  ["remove_recommended_feed", "remove_video"].forEach((name) => {
+  Object.keys(CONFIG.toggles).forEach((name) => {
     if (storage[name] === true) {
       if (document.contains(links[name]) === true) {
         // do nothing
@@ -32,7 +45,7 @@ async function render(links) {
 async function init() {
   //
   let links = {};
-  ["remove_recommended_feed", "remove_video"].forEach((name) => {
+  Object.keys(CONFIG.toggles).forEach((name) => {
     links[name] = document.createElement("link");
     links[name].rel = "stylesheet";
     links[name].href = chrome.runtime.getURL(`/css/${name}.css`);
