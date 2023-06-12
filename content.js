@@ -7,7 +7,7 @@ const CONFIG = {
     hide_feed: ["Hide Recommended Feed", true],
     hide_comments: ["Hide Comments", true],
     hide_merch: ["Hide Merch", true],
-    hide_trending: ["Hide Trending Tab", true],
+    hide_shorts: ["Hide Shorts", true],
     hide_sidebar: ["Hide Sidebar", true],
     hide_related: ["Hide Related Videos", true],
     hide_live_chat: ["Hide Live Chat", true],
