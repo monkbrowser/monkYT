@@ -12,7 +12,7 @@ const CONFIG = {
     hide_related: ["Hide Related Videos", true],
     hide_live_chat: ["Hide Live Chat", true],
     hide_playlist: ["Hide Playlist", true],
-    hide_subs: ["Hide Subscriptions", true],
+    // hide_subs: ["Hide Subscriptions", true],
   },
 };
 //
